@@ -11,7 +11,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 DADOS = RAIZ / "tools" / "dados"
 
-REPOSITORIOS, PRIVADOS = 223, 222  # gh api 'user/repos?affiliation=owner' em 02/11/2026
+REPOSITORIOS, PRIVADOS = 224, 222  # gh api 'user/repos?affiliation=owner' em 02/11/2026, já com este repositório
 
 FICHA = [
     ("Host", "QuantiumCode"),
